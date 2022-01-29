@@ -21,6 +21,6 @@ namespace Domain.Entities
         public bool isActive { get; set; } = true;
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        List<Education> Educations { get; set; }
+        public List<Education> Educations { get; set; }
     }
 }

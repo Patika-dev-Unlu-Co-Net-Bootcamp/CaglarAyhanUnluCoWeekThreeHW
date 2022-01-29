@@ -22,7 +22,7 @@ namespace Domain.Entities
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public decimal Salary { get; set; }
-        List<Education> Educations { get; set; }
-        List<EducationType> EducationTypes { get; set; }
+        public List<Education> Educations { get; set; }
+        public List<EducationType> EducationTypes { get; set; }
     }
 }

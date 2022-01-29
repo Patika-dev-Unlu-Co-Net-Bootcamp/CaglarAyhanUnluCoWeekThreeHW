@@ -22,6 +22,6 @@ namespace Domain.Entities
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public Status Status { get; set; }
-        List<Education> Educations { get; set; }
+        public List<Education> Educations { get; set; }
     }
 }

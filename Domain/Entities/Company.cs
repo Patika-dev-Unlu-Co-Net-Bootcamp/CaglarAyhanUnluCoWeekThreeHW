@@ -13,6 +13,6 @@ namespace Domain.Entities
         [Key]
         public int ID { get; set; }
         public string CompanyName { get; set; }
-        List<Education> Educations { get; set; }
+        public  List<Education> Educations { get; set; }
     }
 }

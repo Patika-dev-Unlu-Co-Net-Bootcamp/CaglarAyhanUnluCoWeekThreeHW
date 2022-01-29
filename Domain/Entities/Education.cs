@@ -19,10 +19,9 @@ namespace Domain.Entities
         public DateTime EndDate { get; set; }
         public Tutor Tutor { get; set; }
         public EducationType EducationType { get; set; }
-        
-        List<Company> Companies { get; set; }
-        List<Student> Students { get; set; }
-        List<Assistant> Assistants { get; set; }
+        public List<Company> Companies { get; set; }
+        public List<Student> Students { get; set; }
+        public List<Assistant> Assistants { get; set; }
 
     }
 }
