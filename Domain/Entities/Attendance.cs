@@ -11,6 +11,7 @@ namespace Domain.Entities
     {
         [Key]
         public int Id { get; set; }
+        public int StudentId { get; set; }
         public AttendenceType AttendenceType { get; set; }
         public DateTime AttendenceDate { get; set; }
         public int Duration { get; set; }

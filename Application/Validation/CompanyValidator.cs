@@ -13,9 +13,6 @@ namespace Application.Validation
         public CompanyValidator()
         {
             RuleFor(x => x.CompanyName).NotNull().NotEmpty().WithMessage("CompanyName Boş Olamaz.");
-        }
-        
-        
-       
+        }                   
     }
 }

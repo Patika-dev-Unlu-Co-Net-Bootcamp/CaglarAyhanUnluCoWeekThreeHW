@@ -15,6 +15,7 @@ namespace Application.Validation
             RuleFor(x => x.Name).NotNull().NotEmpty().WithMessage("İsim Boş Olamaz.");
             RuleFor(x => x.LastName).NotNull().NotEmpty().WithMessage("Soyad Boş Olamaz.");
             RuleFor(x => x.Email).NotNull().NotEmpty().WithMessage("Email boş Olamaz.");
+            RuleFor(x => x.Status).NotNull().NotEmpty().WithMessage("Öğrenci durumu boş Olamaz.");
         }
     }
 }
