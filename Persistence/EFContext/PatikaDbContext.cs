@@ -10,6 +10,10 @@ namespace Persistence.EFContext
 {
     public class PatikaDbContext:DbContext
     {
+        public PatikaDbContext(DbContextOptions<PatikaDbContext> options):base(options)
+        {
+
+        }
         public DbSet<Student> Students { get; set; }
         public DbSet<Assistant> Assistants { get; set; }
         public DbSet<AttendenceType> AttendenceTypes { get; set; }
